@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/digital-7-mono");
+    </style>
+
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=supreme@400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="clock">
+        <div class="innner_clock">
+          <span id="showmns">00</span>:<span id="showscs">00</span>
+        </div>
+      </div>
+      <div class="inputs">
+        <form action="#" method="post">
+          <div class="buttons">
+            <input type="button" id="btnct" value="Start" class="button" />
+            <input
+              type="button"
+              id="btnct_res"
+              value="Restart"
+              class="button middle"
+            />
+            <input type="button" id="btnct_end" value="End" class="button" />
+          </div>
+          <div class="two_inputs">
+            <div class="left">
+              <input
+                type="text"
+                id="mns"
+                name="mns"
+                value="0"
+                size="3"
+                maxlength="3"
+              />
+              <p>Minutes</p>
+            </div>
+            <div class="right">
+              <input
+                type="text"
+                id="scs"
+                name="scs"
+                value="0"
+                size="2"
+                maxlength="2"
+              />
+              <p>Seconds</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
