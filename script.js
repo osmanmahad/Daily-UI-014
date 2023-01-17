@@ -62,7 +62,7 @@ function CountdownTimer(obnm) {
       startchr = 0;
       ctpause = -1;
       endct = 0;
-      el_btnct.value = "START";
+      el_btnct.value = "Start";
       endCT();
     } else if (startchr == 1 && ctpause == 1) {
       // decrease seconds, and decrease minutes if seconds reach to 0
